@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CourtIQ</title>
+
+    <!-- Leaflet CSS -->
+    <link
+        rel="stylesheet"
+        href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    />
+
+    <style>
+        #map {
+            height: 600px;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>CourtIQ</h1>
+    <p>Find your next basketball court.</p>
+
+    <!-- Map -->
+    <div id="map"></div>
+
+    <!-- Leaflet JavaScript -->
+    <script
+        src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js">
+    </script>
+
+    <script>
+        // Create the map
+        const map = L.map("map").setView([39.0458, -77.0730], 13);
+
+        // Add OpenStreetMap as the map background
+        L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
+            attribution: "&copy; OpenStreetMap contributors"
+        }).addTo(map);
+
+        // Get basketball court data from Flask
+        const courtData = {{ courts | tojson }};
+
+        // Add basketball courts to the map
+        L.geoJSON(courtData, {
+            onEachFeature: function(feature, layer) {
+
+                const properties = feature.properties;
+
+                layer.bindPopup(`
+                    <strong>Basketball Court</strong><br>
+                    Hoops: ${properties.hoops || "Unknown"}<br>
+                    Surface: ${properties.surface || "Unknown"}<br>
+                    Lights: ${properties.lit || "Unknown"}
+                `);
+            }
+        }).addTo(map);
+
+    </script>
+
+</body>
+</html>

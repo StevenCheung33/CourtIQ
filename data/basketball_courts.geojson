@@ -1,0 +1,2656 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2026-10-02T04:14:43Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/42563467",
+        "hoops": "2",
+        "leisure": "pitch",
+        "lit": "yes",
+        "sport": "basketball",
+        "surface": "asphalt",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0292666,
+          39.0263009
+        ]
+      },
+      "id": "way/42563467"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/47244380",
+        "leisure": "pitch",
+        "sport": "basketball",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0706683,
+          39.0641562
+        ]
+      },
+      "id": "way/47244380"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/50069828",
+        "hoops": "2",
+        "leisure": "pitch",
+        "sport": "basketball",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0340786,
+          39.0180998
+        ]
+      },
+      "id": "way/50069828"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/66209057",
+        "access": "yes",
+        "hoops": "7",
+        "leisure": "pitch",
+        "lit": "no",
+        "sport": "basketball",
+        "surface": "asphalt",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0722402,
+          39.0290282
+        ]
+      },
+      "id": "way/66209057"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/66482892",
+        "hoops": "2",
+        "leisure": "pitch",
+        "lit": "yes",
+        "sport": "basketball",
+        "surface": "asphalt",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0295094,
+          39.0261699
+        ]
+      },
+      "id": "way/66482892"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/69828484",
+        "leisure": "pitch",
+        "sport": "basketball",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.080966,
+          39.0023745
+        ]
+      },
+      "id": "way/69828484"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/89372495",
+        "hoops": "2",
+        "leisure": "pitch",
+        "lit": "yes",
+        "sport": "basketball",
+        "surface": "asphalt",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0294368,
+          39.0263252
+        ]
+      },
+      "id": "way/89372495"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/89535165",
+        "hoops": "6",
+        "leisure": "pitch",
+        "sport": "basketball",
+        "surface": "asphalt",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.099381,
+          39.0502875
+        ]
+      },
+      "id": "way/89535165"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/93153482",
+        "access": "yes",
+        "covered": "no",
+        "hoops": "2",
+        "leisure": "pitch",
+        "sport": "basketball",
+        "surface": "paved",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.035747,
+          39.048796
+        ]
+      },
+      "id": "way/93153482"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/94249594",
+        "leisure": "pitch",
+        "sport": "basketball",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0381927,
+          39.0336226
+        ]
+      },
+      "id": "way/94249594"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/94491326",
+        "hoops": "2",
+        "leisure": "pitch",
+        "sport": "basketball",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0499156,
+          39.0140897
+        ]
+      },
+      "id": "way/94491326"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/95601187",
+        "hoops": "2",
+        "leisure": "pitch",
+        "lit": "no",
+        "sport": "basketball",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0331437,
+          39.0275537
+        ]
+      },
+      "id": "way/95601187"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/96519121",
+        "leisure": "pitch",
+        "sport": "basketball",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.027938,
+          39.0181274
+        ]
+      },
+      "id": "way/96519121"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/128575141",
+        "hoops": "2",
+        "leisure": "pitch",
+        "sport": "basketball",
+        "surface": "asphalt",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0928135,
+          39.057259
+        ]
+      },
+      "id": "way/128575141"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/131899823",
+        "leisure": "pitch",
+        "sport": "basketball",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.045361,
+          39.0179915
+        ]
+      },
+      "id": "way/131899823"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/134185608",
+        "access": "permit",
+        "hoops": "2",
+        "leisure": "pitch",
+        "sport": "basketball",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.056527,
+          39.0086246
+        ]
+      },
+      "id": "way/134185608"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/134467456",
+        "hoops": "2",
+        "leisure": "pitch",
+        "sport": "basketball",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0227759,
+          39.0365959
+        ]
+      },
+      "id": "way/134467456"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/138366715",
+        "access": "yes",
+        "hoops": "2",
+        "leisure": "pitch",
+        "lit": "no",
+        "sport": "basketball",
+        "surface": "asphalt",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0443998,
+          39.0100839
+        ]
+      },
+      "id": "way/138366715"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/143354124",
+        "access": "yes",
+        "hoops": "2",
+        "leisure": "pitch",
+        "lit": "yes",
+        "sport": "basketball",
+        "surface": "asphalt",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0919428,
+          39.0488821
+        ]
+      },
+      "id": "way/143354124"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/143510071",
+        "leisure": "pitch",
+        "sport": "basketball",
+        "surface": "asphalt",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.1102169,
+          39.0198467
+        ]
+      },
+      "id": "way/143510071"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/143510072",
+        "leisure": "pitch",
+        "sport": "basketball",
+        "surface": "asphalt",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.1100359,
+          39.0198416
+        ]
+      },
+      "id": "way/143510072"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/342148783",
+        "hoops": "2",
+        "leisure": "pitch",
+        "sport": "basketball",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0828583,
+          39.0231722
+        ]
+      },
+      "id": "way/342148783"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/351594361",
+        "leisure": "pitch",
+        "sport": "basketball",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0395938,
+          39.0336731
+        ]
+      },
+      "id": "way/351594361"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/357285418",
+        "addr:city": "Rockville",
+        "addr:housenumber": "4610",
+        "addr:postcode": "20853",
+        "addr:state": "MD",
+        "addr:street": "West Frankfort Drive",
+        "barrier": "fence",
+        "hoops": "6",
+        "leisure": "pitch",
+        "operator": "Montgomery County Public Schools",
+        "sport": "basketball",
+        "surface": "asphalt",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0927025,
+          39.0840307
+        ]
+      },
+      "id": "way/357285418"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/367181831",
+        "leisure": "pitch",
+        "sport": "basketball",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.1179493,
+          39.0372799
+        ]
+      },
+      "id": "way/367181831"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/367181835",
+        "leisure": "pitch",
+        "sport": "basketball",
+        "surface": "asphalt",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.1209993,
+          39.0347902
+        ]
+      },
+      "id": "way/367181835"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/455387991",
+        "access": "yes",
+        "hoops": "2",
+        "leisure": "pitch",
+        "lit": "yes",
+        "sport": "basketball",
+        "surface": "asphalt",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0551434,
+          39.0202599
+        ]
+      },
+      "id": "way/455387991"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/465546347",
+        "access": "yes",
+        "hoops": "2",
+        "leisure": "pitch",
+        "lit": "yes",
+        "sport": "basketball",
+        "surface": "asphalt",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0744046,
+          39.0201547
+        ]
+      },
+      "id": "way/465546347"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/468751886",
+        "leisure": "pitch",
+        "sport": "basketball",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.1013516,
+          39.071952
+        ]
+      },
+      "id": "way/468751886"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/481021644",
+        "access": "permissive",
+        "hoops": "2",
+        "leisure": "pitch",
+        "lit": "yes",
+        "sport": "basketball",
+        "surface": "acrylic",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.1150592,
+          39.0700794
+        ]
+      },
+      "id": "way/481021644"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/494033194",
+        "leisure": "pitch",
+        "name": "Wildwood Manor Basketball Court",
+        "sport": "basketball",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.1161104,
+          39.0250733
+        ]
+      },
+      "id": "way/494033194"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/545953870",
+        "access": "private",
+        "hoops": "1",
+        "leisure": "pitch",
+        "operator": "Middlebridge Village HOA",
+        "sport": "basketball",
+        "surface": "paved",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0420026,
+          39.0731835
+        ]
+      },
+      "id": "way/545953870"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/619705955",
+        "addr:city": "Rockville",
+        "addr:housenumber": "4610",
+        "addr:postcode": "20853",
+        "addr:state": "MD",
+        "addr:street": "Renn Street",
+        "barrier": "fence",
+        "hoops": "4",
+        "leisure": "pitch",
+        "operator": "Montgomery County Public Schools",
+        "sport": "basketball",
+        "surface": "paved",
+        "website": "https://www.montgomeryschoolsmd.org/schools/brookhavenes/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0931115,
+          39.0828593
+        ]
+      },
+      "id": "way/619705955"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/622675554",
+        "access": "yes",
+        "hoops": "2",
+        "leisure": "pitch",
+        "operator:wikidata": "Q61359691",
+        "sport": "basketball",
+        "surface": "concrete",
+        "website": "https://www.montgomeryparks.org/parks-and-trails/saddlebrook-local-park/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0464047,
+          39.0643738
+        ]
+      },
+      "id": "way/622675554"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/665168918",
+        "access": "private",
+        "hoops": "2",
+        "leisure": "pitch",
+        "sport": "basketball",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0841574,
+          39.0045616
+        ]
+      },
+      "id": "way/665168918"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/672646743",
+        "access": "yes",
+        "hoops": "2",
+        "leisure": "pitch",
+        "lit": "yes",
+        "sport": "basketball",
+        "surface": "asphalt",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0592263,
+          39.0740476
+        ]
+      },
+      "id": "way/672646743"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/672647386",
+        "access": "yes",
+        "hoops": "2",
+        "leisure": "pitch",
+        "lit": "yes",
+        "sport": "basketball",
+        "surface": "asphalt",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0590546,
+          39.0740482
+        ]
+      },
+      "id": "way/672647386"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/770123566",
+        "hoops": "2",
+        "leisure": "pitch",
+        "lit": "no",
+        "sport": "basketball",
+        "surface": "asphalt",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0582036,
+          39.0281496
+        ]
+      },
+      "id": "way/770123566"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/770123567",
+        "hoops": "4",
+        "leisure": "pitch",
+        "lit": "no",
+        "sport": "basketball",
+        "surface": "asphalt",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0593171,
+          39.0289185
+        ]
+      },
+      "id": "way/770123567"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/770940053",
+        "hoops": "2",
+        "leisure": "pitch",
+        "lit": "no",
+        "sport": "basketball",
+        "surface": "asphalt",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0589772,
+          39.0268282
+        ]
+      },
+      "id": "way/770940053"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/771523160",
+        "hoops": "1",
+        "leisure": "pitch",
+        "sport": "basketball",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0772376,
+          39.0398936
+        ]
+      },
+      "id": "way/771523160"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/771526048",
+        "access": "yes",
+        "hoops": "2",
+        "leisure": "pitch",
+        "sport": "basketball",
+        "surface": "paved",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0686133,
+          39.0410951
+        ]
+      },
+      "id": "way/771526048"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/772034079",
+        "hoops": "6",
+        "leisure": "pitch",
+        "sport": "basketball",
+        "surface": "asphalt",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0795379,
+          39.0102158
+        ]
+      },
+      "id": "way/772034079"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/773930678",
+        "access": "yes",
+        "hoops": "1",
+        "leisure": "pitch",
+        "lit": "no",
+        "sport": "basketball",
+        "surface": "asphalt",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0680467,
+          39.0345823
+        ]
+      },
+      "id": "way/773930678"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/777112640",
+        "hoops": "2",
+        "leisure": "pitch",
+        "sport": "basketball",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.095706,
+          39.0216378
+        ]
+      },
+      "id": "way/777112640"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/777351218",
+        "hoops": "4",
+        "leisure": "pitch",
+        "sport": "basketball",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0423756,
+          39.0608373
+        ]
+      },
+      "id": "way/777351218"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/781436512",
+        "hoops": "2",
+        "leisure": "pitch",
+        "lit": "no",
+        "sport": "basketball",
+        "surface": "asphalt",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0973397,
+          39.0326194
+        ]
+      },
+      "id": "way/781436512"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/781436513",
+        "hoops": "1",
+        "leisure": "pitch",
+        "lit": "no",
+        "sport": "basketball",
+        "surface": "asphalt",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0970607,
+          39.0327384
+        ]
+      },
+      "id": "way/781436513"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/781436514",
+        "hoops": "1",
+        "leisure": "pitch",
+        "lit": "no",
+        "sport": "basketball",
+        "surface": "asphalt",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0971338,
+          39.0326288
+        ]
+      },
+      "id": "way/781436514"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/784618038",
+        "hoops": "2",
+        "leisure": "pitch",
+        "sport": "basketball",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0578693,
+          39.0352275
+        ]
+      },
+      "id": "way/784618038"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/785450780",
+        "access": "private",
+        "hoops": "1",
+        "leisure": "pitch",
+        "sport": "basketball",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0641829,
+          39.0217054
+        ]
+      },
+      "id": "way/785450780"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/787814191",
+        "access": "private",
+        "leisure": "pitch",
+        "sport": "basketball",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0730286,
+          39.0261701
+        ]
+      },
+      "id": "way/787814191"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/793602304",
+        "leisure": "pitch",
+        "sport": "basketball",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0888978,
+          39.0675952
+        ]
+      },
+      "id": "way/793602304"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/793627815",
+        "leisure": "pitch",
+        "sport": "basketball",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0888889,
+          39.0673934
+        ]
+      },
+      "id": "way/793627815"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/843677728",
+        "leisure": "pitch",
+        "sport": "basketball",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0686423,
+          39.0009066
+        ]
+      },
+      "id": "way/843677728"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/848626968",
+        "hoops": "2",
+        "leisure": "pitch",
+        "lit": "no",
+        "sport": "basketball",
+        "surface": "asphalt",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0871597,
+          39.0412922
+        ]
+      },
+      "id": "way/848626968"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/848626982",
+        "hoops": "2",
+        "leisure": "pitch",
+        "lit": "no",
+        "sport": "basketball",
+        "surface": "asphalt",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0933032,
+          39.0378665
+        ]
+      },
+      "id": "way/848626982"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/849025793",
+        "hoops": "1",
+        "leisure": "pitch",
+        "sport": "basketball",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0457448,
+          39.0272182
+        ]
+      },
+      "id": "way/849025793"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/849025794",
+        "hoops": "1",
+        "leisure": "pitch",
+        "sport": "basketball",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0459554,
+          39.0271323
+        ]
+      },
+      "id": "way/849025794"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/850547308",
+        "hoops": "1",
+        "leisure": "pitch",
+        "sport": "basketball",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0324418,
+          39.0485745
+        ]
+      },
+      "id": "way/850547308"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/851201989",
+        "hoops": "3",
+        "leisure": "pitch",
+        "lit": "yes",
+        "sport": "basketball",
+        "surface": "asphalt",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0315098,
+          39.0474804
+        ]
+      },
+      "id": "way/851201989"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/851907189",
+        "access": "private",
+        "hoops": "1",
+        "leisure": "pitch",
+        "sport": "basketball",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0914997,
+          39.0143772
+        ]
+      },
+      "id": "way/851907189"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/852983757",
+        "hoops": "2",
+        "leisure": "pitch",
+        "sport": "basketball",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0192091,
+          39.0327732
+        ]
+      },
+      "id": "way/852983757"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/865725139",
+        "hoops": "4",
+        "leisure": "pitch",
+        "sport": "basketball",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0665184,
+          39.0661736
+        ]
+      },
+      "id": "way/865725139"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/866012560",
+        "access": "private",
+        "hoops": "2",
+        "leisure": "pitch",
+        "sport": "basketball",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.084085,
+          39.0186403
+        ]
+      },
+      "id": "way/866012560"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/885944160",
+        "hoops": "4",
+        "leisure": "pitch",
+        "sport": "basketball",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0402103,
+          39.0369797
+        ]
+      },
+      "id": "way/885944160"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/886313669",
+        "hoops": "2",
+        "leisure": "pitch",
+        "sport": "basketball",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0397313,
+          39.0662957
+        ]
+      },
+      "id": "way/886313669"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/886313670",
+        "hoops": "2",
+        "leisure": "pitch",
+        "sport": "basketball",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0395282,
+          39.066443
+        ]
+      },
+      "id": "way/886313670"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/887692827",
+        "hoops": "2",
+        "leisure": "pitch",
+        "lit": "no",
+        "sport": "basketball",
+        "surface": "asphalt",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0299659,
+          39.0419933
+        ]
+      },
+      "id": "way/887692827"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/925777178",
+        "leisure": "pitch",
+        "sport": "basketball",
+        "surface": "concrete",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0409007,
+          39.0114241
+        ]
+      },
+      "id": "way/925777178"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/970136215",
+        "hoops": "2",
+        "leisure": "pitch",
+        "sport": "basketball",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0761016,
+          39.0502676
+        ]
+      },
+      "id": "way/970136215"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/971498334",
+        "leisure": "pitch",
+        "sport": "basketball",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0640557,
+          39.049314
+        ]
+      },
+      "id": "way/971498334"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/978175305",
+        "hoops": "2",
+        "leisure": "pitch",
+        "sport": "basketball",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0595721,
+          39.0851882
+        ]
+      },
+      "id": "way/978175305"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/978786478",
+        "access": "yes",
+        "hoops": "2",
+        "leisure": "pitch",
+        "lit": "yes",
+        "sport": "basketball",
+        "surface": "asphalt",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0834104,
+          39.0343242
+        ]
+      },
+      "id": "way/978786478"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/978786479",
+        "access": "yes",
+        "hoops": "2",
+        "leisure": "pitch",
+        "lit": "yes",
+        "sport": "basketball",
+        "surface": "asphalt",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0832566,
+          39.0342601
+        ]
+      },
+      "id": "way/978786479"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/978821062",
+        "leisure": "pitch",
+        "sport": "basketball",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.1276575,
+          39.0531763
+        ]
+      },
+      "id": "way/978821062"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/985543942",
+        "access": "yes",
+        "hoops": "2",
+        "leisure": "pitch",
+        "sport": "basketball",
+        "surface": "paved",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0684601,
+          39.0410244
+        ]
+      },
+      "id": "way/985543942"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/985543943",
+        "access": "yes",
+        "hoops": "2",
+        "leisure": "pitch",
+        "sport": "basketball",
+        "surface": "paved",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0683112,
+          39.0409567
+        ]
+      },
+      "id": "way/985543943"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/985552088",
+        "access": "yes",
+        "hoops": "2",
+        "leisure": "pitch",
+        "lit": "yes",
+        "sport": "basketball",
+        "surface": "asphalt",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0918743,
+          39.0487448
+        ]
+      },
+      "id": "way/985552088"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/986986497",
+        "hoops": "1",
+        "leisure": "pitch",
+        "sport": "basketball",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0302631,
+          39.0444061
+        ]
+      },
+      "id": "way/986986497"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/987191332",
+        "access": "permit",
+        "hoops": "2",
+        "leisure": "pitch",
+        "sport": "basketball",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0565274,
+          39.0087551
+        ]
+      },
+      "id": "way/987191332"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1003649136",
+        "hoops": "2",
+        "leisure": "pitch",
+        "sport": "basketball",
+        "surface": "paved",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0740175,
+          39.0161179
+        ]
+      },
+      "id": "way/1003649136"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1003649137",
+        "hoops": "2",
+        "leisure": "pitch",
+        "sport": "basketball",
+        "surface": "paved",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0738501,
+          39.0161181
+        ]
+      },
+      "id": "way/1003649137"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1003649138",
+        "hoops": "2",
+        "leisure": "pitch",
+        "sport": "basketball",
+        "surface": "paved",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0736798,
+          39.0161191
+        ]
+      },
+      "id": "way/1003649138"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1006286548",
+        "hoops": "2",
+        "leisure": "pitch",
+        "sport": "basketball",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0744672,
+          39.0876564
+        ]
+      },
+      "id": "way/1006286548"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1006291524",
+        "access": "permissive",
+        "hoops": "2",
+        "leisure": "pitch",
+        "lit": "yes",
+        "sport": "basketball",
+        "surface": "acrylic",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.1149886,
+          39.069964
+        ]
+      },
+      "id": "way/1006291524"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1010847831",
+        "hoops": "2",
+        "leisure": "pitch",
+        "sport": "basketball",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0802696,
+          39.061301
+        ]
+      },
+      "id": "way/1010847831"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1010847832",
+        "hoops": "2",
+        "leisure": "pitch",
+        "sport": "basketball",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.080112,
+          39.061368
+        ]
+      },
+      "id": "way/1010847832"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1011040500",
+        "hoops": "2",
+        "leisure": "pitch",
+        "sport": "basketball",
+        "surface": "asphalt",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.1199908,
+          39.0675828
+        ]
+      },
+      "id": "way/1011040500"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1011040508",
+        "hoops": "2",
+        "leisure": "pitch",
+        "sport": "basketball",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.1207045,
+          39.0688725
+        ]
+      },
+      "id": "way/1011040508"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1011040509",
+        "hoops": "2",
+        "leisure": "pitch",
+        "sport": "basketball",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.1207546,
+          39.06875
+        ]
+      },
+      "id": "way/1011040509"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1011040511",
+        "hoops": "1",
+        "leisure": "pitch",
+        "sport": "basketball",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.1208751,
+          39.0686336
+        ]
+      },
+      "id": "way/1011040511"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1011040512",
+        "hoops": "1",
+        "leisure": "pitch",
+        "sport": "basketball",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.1208946,
+          39.0685014
+        ]
+      },
+      "id": "way/1011040512"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1017740911",
+        "access": "yes",
+        "hoops": "4",
+        "leisure": "pitch",
+        "lit": "yes",
+        "sport": "basketball",
+        "surface": "asphalt",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.1063314,
+          39.0125199
+        ]
+      },
+      "id": "way/1017740911"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1020301027",
+        "hoops": "1",
+        "leisure": "pitch",
+        "sport": "basketball",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.077075,
+          39.0398904
+        ]
+      },
+      "id": "way/1020301027"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1020301028",
+        "hoops": "1",
+        "leisure": "pitch",
+        "sport": "basketball",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0769062,
+          39.0398871
+        ]
+      },
+      "id": "way/1020301028"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1020301029",
+        "hoops": "1",
+        "leisure": "pitch",
+        "sport": "basketball",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0767344,
+          39.0398833
+        ]
+      },
+      "id": "way/1020301029"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1023017040",
+        "hoops": "1",
+        "leisure": "pitch",
+        "lit": "no",
+        "sport": "basketball",
+        "surface": "asphalt",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0399813,
+          39.0451582
+        ]
+      },
+      "id": "way/1023017040"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1023017041",
+        "hoops": "1",
+        "leisure": "pitch",
+        "lit": "no",
+        "sport": "basketball",
+        "surface": "asphalt",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0399827,
+          39.0450295
+        ]
+      },
+      "id": "way/1023017041"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1024383605",
+        "access": "yes",
+        "hoops": "2",
+        "leisure": "pitch",
+        "lit": "yes",
+        "sport": "basketball",
+        "surface": "asphalt",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0552842,
+          39.0203044
+        ]
+      },
+      "id": "way/1024383605"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1076446806",
+        "access": "yes",
+        "hoops": "1",
+        "leisure": "pitch",
+        "operator:wikidata": "Q61359691",
+        "sport": "basketball",
+        "surface": "concrete",
+        "website": "https://www.montgomeryparks.org/parks-and-trails/saddlebrook-local-park/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0465167,
+          39.0642695
+        ]
+      },
+      "id": "way/1076446806"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1081851209",
+        "leisure": "pitch",
+        "sport": "basketball",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.1101546,
+          39.0768903
+        ]
+      },
+      "id": "way/1081851209"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1081851210",
+        "leisure": "pitch",
+        "sport": "basketball",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.1100086,
+          39.0768807
+        ]
+      },
+      "id": "way/1081851210"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1087725668",
+        "access": "private",
+        "hoops": "1",
+        "leisure": "pitch",
+        "sport": "basketball",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0754037,
+          39.0211629
+        ]
+      },
+      "id": "way/1087725668"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1089697459",
+        "hoops": "2",
+        "leisure": "pitch",
+        "sport": "basketball",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0500902,
+          39.01409
+        ]
+      },
+      "id": "way/1089697459"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1107182595",
+        "hoops": "2",
+        "leisure": "pitch",
+        "sport": "basketball",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0342424,
+          39.0181241
+        ]
+      },
+      "id": "way/1107182595"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1145445350",
+        "access": "private",
+        "hoops": "2",
+        "leisure": "pitch",
+        "sport": "basketball",
+        "surface": "asphalt",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0842712,
+          39.0144249
+        ]
+      },
+      "id": "way/1145445350"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1145445351",
+        "access": "private",
+        "hoops": "2",
+        "leisure": "pitch",
+        "sport": "basketball",
+        "surface": "asphalt",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.084082,
+          39.0143939
+        ]
+      },
+      "id": "way/1145445351"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1150987491",
+        "leisure": "pitch",
+        "sport": "basketball",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0744745,
+          39.0769128
+        ]
+      },
+      "id": "way/1150987491"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1150987492",
+        "leisure": "pitch",
+        "sport": "basketball",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0746517,
+          39.0768865
+        ]
+      },
+      "id": "way/1150987492"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1162523565",
+        "hoops": "2",
+        "leisure": "pitch",
+        "sport": "basketball",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.095573,
+          39.0217256
+        ]
+      },
+      "id": "way/1162523565"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1164241795",
+        "hoops": "1",
+        "leisure": "pitch",
+        "sport": "basketball",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0571265,
+          39.0640443
+        ]
+      },
+      "id": "way/1164241795"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1173099285",
+        "hoops": "4",
+        "leisure": "pitch",
+        "lit": "no",
+        "sport": "basketball",
+        "surface": "asphalt",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0591625,
+          39.0289403
+        ]
+      },
+      "id": "way/1173099285"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1173099287",
+        "hoops": "2",
+        "leisure": "pitch",
+        "lit": "no",
+        "sport": "basketball",
+        "surface": "asphalt",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0581943,
+          39.0280152
+        ]
+      },
+      "id": "way/1173099287"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1173775593",
+        "hoops": "2",
+        "leisure": "pitch",
+        "lit": "yes",
+        "sport": "basketball",
+        "surface": "asphalt",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0309903,
+          39.0419895
+        ]
+      },
+      "id": "way/1173775593"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1173775594",
+        "hoops": "2",
+        "leisure": "pitch",
+        "lit": "yes",
+        "sport": "basketball",
+        "surface": "asphalt",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0308711,
+          39.0420182
+        ]
+      },
+      "id": "way/1173775594"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1173999886",
+        "hoops": "2",
+        "leisure": "pitch",
+        "sport": "basketball",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0226109,
+          39.0366645
+        ]
+      },
+      "id": "way/1173999886"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1174083474",
+        "hoops": "2",
+        "leisure": "pitch",
+        "sport": "basketball",
+        "surface": "asphalt",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0926497,
+          39.0573419
+        ]
+      },
+      "id": "way/1174083474"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1175749804",
+        "hoops": "2",
+        "leisure": "pitch",
+        "sport": "basketball",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0166023,
+          39.0447197
+        ]
+      },
+      "id": "way/1175749804"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1175749805",
+        "hoops": "2",
+        "leisure": "pitch",
+        "sport": "basketball",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0166018,
+          39.0445701
+        ]
+      },
+      "id": "way/1175749805"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1175755969",
+        "hoops": "2",
+        "leisure": "pitch",
+        "lit": "no",
+        "sport": "basketball",
+        "surface": "asphalt",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.1044735,
+          39.0413499
+        ]
+      },
+      "id": "way/1175755969"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1175755970",
+        "hoops": "2",
+        "leisure": "pitch",
+        "lit": "no",
+        "sport": "basketball",
+        "surface": "asphalt",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.1046451,
+          39.0413504
+        ]
+      },
+      "id": "way/1175755970"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1315831037",
+        "leisure": "pitch",
+        "sport": "basketball",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.1099644,
+          39.0458594
+        ]
+      },
+      "id": "way/1315831037"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1328839216",
+        "hoops": "2",
+        "leisure": "pitch",
+        "sport": "basketball",
+        "surface": "asphalt",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.1290446,
+          39.0495541
+        ]
+      },
+      "id": "way/1328839216"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1333488790",
+        "leisure": "pitch",
+        "sport": "basketball",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0285699,
+          39.0497635
+        ]
+      },
+      "id": "way/1333488790"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1338963073",
+        "access": "yes",
+        "hoops": "1",
+        "leisure": "pitch",
+        "lit": "no",
+        "sport": "basketball",
+        "surface": "asphalt",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0800617,
+          39.026459
+        ]
+      },
+      "id": "way/1338963073"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1351607106",
+        "hoops": "4",
+        "leisure": "pitch",
+        "sport": "basketball",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0647011,
+          39.0513923
+        ]
+      },
+      "id": "way/1351607106"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1422357804",
+        "hoops": "2",
+        "leisure": "pitch",
+        "sport": "basketball",
+        "surface": "paved",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0268923,
+          39.0467332
+        ]
+      },
+      "id": "way/1422357804"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1426483076",
+        "hoops": "1",
+        "leisure": "pitch",
+        "sport": "basketball",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.032248,
+          39.0485726
+        ]
+      },
+      "id": "way/1426483076"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1431740633",
+        "hoops": "1",
+        "leisure": "pitch",
+        "sport": "basketball",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0550593,
+          39.0825649
+        ]
+      },
+      "id": "way/1431740633"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1431740634",
+        "hoops": "1",
+        "leisure": "pitch",
+        "sport": "basketball",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0549245,
+          39.0825521
+        ]
+      },
+      "id": "way/1431740634"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1431740635",
+        "hoops": "1",
+        "leisure": "pitch",
+        "sport": "basketball",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0547582,
+          39.0825351
+        ]
+      },
+      "id": "way/1431740635"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1431740636",
+        "hoops": "1",
+        "leisure": "pitch",
+        "sport": "basketball",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0546308,
+          39.0825219
+        ]
+      },
+      "id": "way/1431740636"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1524803401",
+        "hoops": "2",
+        "leisure": "pitch",
+        "lit": "no",
+        "sport": "basketball",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0324527,
+          39.0276156
+        ]
+      },
+      "id": "way/1524803401"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1524803402",
+        "hoops": "2",
+        "leisure": "pitch",
+        "lit": "no",
+        "sport": "basketball",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0324844,
+          39.0274218
+        ]
+      },
+      "id": "way/1524803402"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7341396775",
+        "hoops": "1",
+        "leisure": "pitch",
+        "sport": "basketball"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0548723,
+          39.0191915
+        ]
+      },
+      "id": "node/7341396775"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8089866572",
+        "access": "no",
+        "hoops": "1",
+        "leisure": "pitch",
+        "sport": "basketball"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0738607,
+          39.0252871
+        ]
+      },
+      "id": "node/8089866572"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12634151184",
+        "hoops": "1",
+        "leisure": "pitch",
+        "sport": "basketball"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0646537,
+          39.0040013
+        ]
+      },
+      "id": "node/12634151184"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12643691161",
+        "hoops": "1",
+        "leisure": "pitch",
+        "sport": "basketball"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.1022906,
+          39.0134959
+        ]
+      },
+      "id": "node/12643691161"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12643691162",
+        "hoops": "1",
+        "leisure": "pitch",
+        "sport": "basketball"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.1024488,
+          39.0134729
+        ]
+      },
+      "id": "node/12643691162"
+    }
+  ]
+}
