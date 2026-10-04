@@ -30,17 +30,24 @@
         src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js">
     </script>
 
+    <!-- Court data sent from Flask -->
+    <script id="court-data" type="application/json">
+        {{ courts | tojson }}
+    </script>
+
     <script>
         // Create the map
         const map = L.map("map").setView([39.0458, -77.0730], 13);
 
-        // Add OpenStreetMap as the map background
+        // Add OpenStreetMap background
         L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
             attribution: "&copy; OpenStreetMap contributors"
         }).addTo(map);
 
-        // Get basketball court data from Flask
-        const courtData = {{ courts | tojson }};
+        // Read basketball court data
+        const courtData = JSON.parse(
+            document.getElementById("court-data").textContent
+        );
 
         // Add basketball courts to the map
         L.geoJSON(courtData, {
