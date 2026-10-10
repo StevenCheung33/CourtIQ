@@ -1,70 +1,139 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>CourtIQ</title>
 
-    <!-- Leaflet CSS -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>CourtIQ | Find Basketball Courts</title>
+
     <link
         rel="stylesheet"
         href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
-    />
+    >
 
-    <style>
-        #map {
-            height: 600px;
-            width: 100%;
-        }
-    </style>
+    <link
+        rel="stylesheet"
+        href="{{ url_for('static', filename='css/style.css') }}"
+    >
 </head>
 
 <body>
 
-    <h1>CourtIQ</h1>
-    <p>Find your next basketball court.</p>
+    <header class="site-header">
+        <h1>CourtIQ</h1>
+        <p>Find your next basketball court.</p>
+    </header>
 
-    <!-- Map -->
-    <div id="map"></div>
+    <main>
+        <div class="search-controls">
+            <input
+                type="text"
+                id="location-search"
+                placeholder="Enter a city or address"
+                aria-label="Search city or address"
+            >
 
-    <!-- Leaflet JavaScript -->
-    <script
-        src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js">
-    </script>
+            <button id="search-button" type="button">
+                Search
+            </button>
 
-    <!-- Court data sent from Flask -->
-    <script id="court-data" type="application/json">
-        {{ courts | tojson }}
-    </script>
+            <button id="my-location-button" type="button">
+                Use My Location
+            </button>
+        </div>
 
-    <script>
-        // Create the map
-        const map = L.map("map").setView([39.0458, -77.0730], 13);
+        <p id="results-count" role="status">
+            Search for basketball courts to get started.
+        </p>
 
-        // Add OpenStreetMap background
-        L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
-            attribution: "&copy; OpenStreetMap contributors"
-        }).addTo(map);
+        <div class="map-container">
+            <div id="map"></div>
 
-        // Read basketball court data
-        const courtData = JSON.parse(
-            document.getElementById("court-data").textContent
-        );
+            <aside
+                id="court-panel"
+                class="court-panel"
+                aria-label="Basketball court details"
+                hidden
+            >
+                <div class="panel-header">
+                    <span class="panel-label">COURT DETAILS</span>
 
-        // Add basketball courts to the map
-        L.geoJSON(courtData, {
-            onEachFeature: function(feature, layer) {
+                    <button
+                        id="close-panel"
+                        class="close-button"
+                        type="button"
+                        aria-label="Close court details"
+                    >
+                        &times;
+                    </button>
+                </div>
 
-                const properties = feature.properties;
+                <div class="court-photo-placeholder">
+                    <span class="photo-icon">📷</span>
+                    <p>No court photos available yet</p>
+                    <small>
+                        Community photos will appear here
+                        in a future update.
+                    </small>
+                </div>
 
-                layer.bindPopup(`
-                    <strong>Basketball Court</strong><br>
-                    Hoops: ${properties.hoops || "Unknown"}<br>
-                    Surface: ${properties.surface || "Unknown"}<br>
-                    Lights: ${properties.lit || "Unknown"}
-                `);
-            }
-        }).addTo(map);
+                <div class="panel-content">
+                    <h2 id="court-name">Basketball Court</h2>
 
-    </script>
+                    <p id="court-distance" class="court-distance"></p>
+
+                    <h3>Court Information</h3>
+
+                    <div class="court-details">
+                        <div class="detail-row">
+                            <span>🏀 Hoops</span>
+                            <strong id="court-hoops">Unknown</strong>
+                        </div>
+
+                        <div class="detail-row">
+                            <span>💡 Lighting</span>
+                            <strong id="court-lighting">Unknown</strong>
+                        </div>
+
+                        <div class="detail-row">
+                            <span>🏟️ Surface</span>
+                            <strong id="court-surface">Unknown</strong>
+                        </div>
+                    </div>
+
+                    <h3>Community Reviews</h3>
+
+                    <div class="reviews-placeholder">
+                        <div class="empty-stars">☆☆☆☆☆</div>
+                        <strong>No reviews yet</strong>
+                        <p>
+                            This court hasn't received any
+                            CourtIQ reviews.
+                        </p>
+                        <small>
+                            Ratings and written reviews
+                            are coming in a future update.
+                        </small>
+                    </div>
+
+                    <a
+                        id="directions-link"
+                        class="directions-button"
+                        href="#"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        Get Directions ↗
+                    </a>
+                </div>
+            </aside>
+        </div>
+    </main>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+    <script src="{{ url_for('static', filename='js/map.js') }}"></script>
 
 </body>
 </html>

@@ -1,0 +1,330 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f7f8fa;
+    color: #17212b;
+}
+
+.site-header {
+    padding: 24px 32px 10px;
+}
+
+.site-header h1 {
+    font-size: 34px;
+    margin: 0 0 8px;
+    letter-spacing: -1px;
+}
+
+.site-header p {
+    margin: 0;
+    color: #65717e;
+}
+
+main {
+    padding: 0 32px 32px;
+}
+
+.search-controls {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin: 24px 0 16px;
+}
+
+#location-search {
+    width: 310px;
+    max-width: 100%;
+    padding: 13px 15px;
+    font-size: 15px;
+    background: white;
+    border: 1px solid #d6dce2;
+    border-radius: 9px;
+    outline: none;
+}
+
+#location-search:focus {
+    border-color: #2563eb;
+}
+
+.search-controls button {
+    padding: 13px 20px;
+    border: none;
+    border-radius: 9px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#search-button {
+    background: #2563eb;
+    color: white;
+}
+
+#search-button:hover {
+    background: #1d4ed8;
+}
+
+#my-location-button {
+    background: #e7edf5;
+    color: #17212b;
+}
+
+#my-location-button:hover {
+    background: #d9e3ef;
+}
+
+#results-count {
+    margin: 16px 0;
+    font-size: 14px;
+    color: #526070;
+    font-weight: 600;
+}
+
+.map-container {
+    position: relative;
+    width: 100%;
+    height: 650px;
+    overflow: hidden;
+    border-radius: 14px;
+    background: #e5e7eb;
+    border: 1px solid #dce1e6;
+}
+
+#map {
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+/* Court profile panel */
+
+.court-panel {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    bottom: 12px;
+    width: 370px;
+    max-width: calc(100% - 24px);
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    overflow-y: auto;
+    animation: slideIn 0.25s ease;
+}
+
+.court-panel[hidden] {
+    display: none;
+}
+
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateX(25px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.panel-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 20px;
+}
+
+.panel-label {
+    font-size: 11px;
+    font-weight: 800;
+    color: #64748b;
+    letter-spacing: 1.2px;
+}
+
+.close-button {
+    border: none;
+    background: #f1f5f9;
+    color: #334155;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    font-size: 24px;
+    cursor: pointer;
+    line-height: 1;
+}
+
+.close-button:hover {
+    background: #e2e8f0;
+}
+
+/* Photos */
+
+.court-photo-placeholder {
+    min-height: 190px;
+    background: #edf1f5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    color: #64748b;
+}
+
+.photo-icon {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.court-photo-placeholder p {
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0 0 8px;
+}
+
+.court-photo-placeholder small {
+    max-width: 230px;
+    line-height: 1.5;
+}
+
+/* Court information */
+
+.panel-content {
+    padding: 20px;
+}
+
+.panel-content h2 {
+    font-size: 23px;
+    margin: 0 0 8px;
+}
+
+.court-distance {
+    color: #64748b;
+    font-size: 13px;
+    margin-bottom: 26px;
+}
+
+.panel-content h3 {
+    font-size: 16px;
+    margin: 24px 0 14px;
+}
+
+.court-details {
+    border: 1px solid #e2e8f0;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.detail-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+    padding: 15px;
+    border-bottom: 1px solid #e2e8f0;
+    font-size: 14px;
+}
+
+.detail-row:last-child {
+    border-bottom: none;
+}
+
+.detail-row span {
+    color: #64748b;
+}
+
+.detail-row strong {
+    text-align: right;
+}
+
+/* Reviews */
+
+.reviews-placeholder {
+    padding: 28px 16px;
+    border: 1px dashed #cbd5e1;
+    border-radius: 10px;
+    text-align: center;
+    background: #f8fafc;
+}
+
+.empty-stars {
+    font-size: 29px;
+    color: #94a3b8;
+    margin-bottom: 10px;
+}
+
+.reviews-placeholder strong {
+    display: block;
+    font-size: 15px;
+}
+
+.reviews-placeholder p {
+    color: #64748b;
+    font-size: 13px;
+    line-height: 1.5;
+}
+
+.reviews-placeholder small {
+    color: #94a3b8;
+}
+
+/* Directions */
+
+.directions-button {
+    display: block;
+    margin-top: 24px;
+    padding: 14px;
+    text-align: center;
+    background: #2563eb;
+    color: white;
+    border-radius: 9px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.directions-button:hover {
+    background: #1d4ed8;
+}
+
+/* Mobile screens */
+
+@media (max-width: 700px) {
+    .site-header {
+        padding: 20px 16px 8px;
+    }
+
+    main {
+        padding: 0 16px 20px;
+    }
+
+    .search-controls {
+        gap: 8px;
+    }
+
+    #location-search {
+        width: 100%;
+    }
+
+    .map-container {
+        height: 75vh;
+        min-height: 500px;
+    }
+
+    .court-panel {
+        top: auto;
+        right: 8px;
+        left: 8px;
+        bottom: 8px;
+        width: auto;
+        max-width: none;
+        max-height: 75%;
+    }
+}
