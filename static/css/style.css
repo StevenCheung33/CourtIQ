@@ -29,6 +29,8 @@ main {
     padding: 0 32px 32px;
 }
 
+/* SEARCH */
+
 .search-controls {
     display: flex;
     align-items: center;
@@ -84,7 +86,10 @@ main {
     font-size: 14px;
     color: #526070;
     font-weight: 600;
+    line-height: 1.5;
 }
+
+/* MAP */
 
 .map-container {
     position: relative;
@@ -102,14 +107,14 @@ main {
     z-index: 1;
 }
 
-/* Court profile panel */
+/* COURT PROFILE PANEL */
 
 .court-panel {
     position: absolute;
     top: 12px;
     right: 12px;
     bottom: 12px;
-    width: 370px;
+    width: 390px;
     max-width: calc(100% - 24px);
     background: white;
     border-radius: 12px;
@@ -165,7 +170,7 @@ main {
     background: #e2e8f0;
 }
 
-/* Photos */
+/* PHOTO PLACEHOLDER */
 
 .court-photo-placeholder {
     min-height: 190px;
@@ -195,7 +200,7 @@ main {
     line-height: 1.5;
 }
 
-/* Court information */
+/* COURT INFORMATION */
 
 .panel-content {
     padding: 20px;
@@ -209,12 +214,12 @@ main {
 .court-distance {
     color: #64748b;
     font-size: 13px;
-    margin-bottom: 26px;
+    margin-bottom: 20px;
 }
 
 .panel-content h3 {
     font-size: 16px;
-    margin: 24px 0 14px;
+    margin: 26px 0 14px;
 }
 
 .court-details {
@@ -244,7 +249,52 @@ main {
     text-align: right;
 }
 
-/* Reviews */
+/* AVERAGE RATING */
+
+.rating-summary {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    padding: 16px;
+    border: 1px solid #e2e8f0;
+    border-radius: 10px;
+    background: #f8fafc;
+}
+
+.average-stars {
+    font-size: 25px;
+    color: #f59e0b;
+    letter-spacing: 1px;
+    white-space: nowrap;
+}
+
+.rating-summary-text {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.rating-summary-text strong {
+    font-size: 16px;
+}
+
+.rating-summary-text span {
+    font-size: 12px;
+    color: #64748b;
+}
+
+/* REVIEWS */
+
+.reviews-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.loading-message {
+    color: #64748b;
+    font-size: 13px;
+}
 
 .reviews-placeholder {
     padding: 28px 16px;
@@ -271,11 +321,123 @@ main {
     line-height: 1.5;
 }
 
-.reviews-placeholder small {
-    color: #94a3b8;
+.review-card {
+    padding: 15px;
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 10px;
 }
 
-/* Directions */
+.review-card-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    margin-bottom: 6px;
+}
+
+.review-author {
+    font-size: 14px;
+    overflow-wrap: anywhere;
+}
+
+.review-stars {
+    color: #f59e0b;
+    font-size: 17px;
+    white-space: nowrap;
+}
+
+.review-date {
+    display: block;
+    color: #94a3b8;
+    font-size: 11px;
+    margin-bottom: 10px;
+}
+
+.review-comment {
+    margin: 0;
+    color: #334155;
+    font-size: 13px;
+    line-height: 1.6;
+    white-space: pre-wrap;
+    overflow-wrap: anywhere;
+}
+
+/* REVIEW FORM */
+
+#review-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 18px;
+    border: 1px solid #e2e8f0;
+    border-radius: 10px;
+    background: #f8fafc;
+}
+
+#review-form label {
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+#review-form input,
+#review-form select,
+#review-form textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    font-family: inherit;
+    font-size: 14px;
+    background: white;
+    color: #17212b;
+}
+
+#review-form textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+#review-form input:focus,
+#review-form select:focus,
+#review-form textarea:focus {
+    outline: 2px solid #93c5fd;
+    border-color: #2563eb;
+}
+
+.submit-review-button {
+    margin-top: 8px;
+    padding: 13px;
+    background: #2563eb;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.submit-review-button:hover {
+    background: #1d4ed8;
+}
+
+.submit-review-button:disabled {
+    background: #94a3b8;
+    cursor: not-allowed;
+}
+
+.review-message {
+    font-size: 12px;
+    margin: 0;
+    line-height: 1.5;
+}
+
+.review-message:empty {
+    display: none;
+}
+
+/* DIRECTIONS */
 
 .directions-button {
     display: block;
@@ -294,7 +456,7 @@ main {
     background: #1d4ed8;
 }
 
-/* Mobile screens */
+/* MOBILE */
 
 @media (max-width: 700px) {
     .site-header {
@@ -326,5 +488,13 @@ main {
         width: auto;
         max-width: none;
         max-height: 75%;
+    }
+
+    .panel-content {
+        padding: 16px;
+    }
+
+    .average-stars {
+        font-size: 21px;
     }
 }

@@ -3,7 +3,10 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
 
     <title>CourtIQ | Find Basketball Courts</title>
 
@@ -26,6 +29,7 @@
     </header>
 
     <main>
+
         <div class="search-controls">
             <input
                 type="text"
@@ -48,6 +52,7 @@
         </p>
 
         <div class="map-container">
+
             <div id="map"></div>
 
             <aside
@@ -56,8 +61,11 @@
                 aria-label="Basketball court details"
                 hidden
             >
+
                 <div class="panel-header">
-                    <span class="panel-label">COURT DETAILS</span>
+                    <span class="panel-label">
+                        COURT DETAILS
+                    </span>
 
                     <button
                         id="close-panel"
@@ -71,51 +79,160 @@
 
                 <div class="court-photo-placeholder">
                     <span class="photo-icon">📷</span>
+
                     <p>No court photos available yet</p>
+
                     <small>
-                        Community photos will appear here
-                        in a future update.
+                        Community photo uploads are
+                        coming in a future update.
                     </small>
                 </div>
 
                 <div class="panel-content">
-                    <h2 id="court-name">Basketball Court</h2>
 
-                    <p id="court-distance" class="court-distance"></p>
+                    <h2 id="court-name">
+                        Basketball Court
+                    </h2>
+
+                    <p
+                        id="court-distance"
+                        class="court-distance"
+                    ></p>
+
+                    <section class="rating-summary">
+                        <div
+                            id="average-stars"
+                            class="average-stars"
+                        >
+                            ☆☆☆☆☆
+                        </div>
+
+                        <div class="rating-summary-text">
+                            <strong id="average-rating">
+                                Not rated yet
+                            </strong>
+
+                            <span id="review-count">
+                                0 reviews
+                            </span>
+                        </div>
+                    </section>
 
                     <h3>Court Information</h3>
 
                     <div class="court-details">
+
                         <div class="detail-row">
                             <span>🏀 Hoops</span>
-                            <strong id="court-hoops">Unknown</strong>
+                            <strong id="court-hoops">
+                                Unknown
+                            </strong>
                         </div>
 
                         <div class="detail-row">
                             <span>💡 Lighting</span>
-                            <strong id="court-lighting">Unknown</strong>
+                            <strong id="court-lighting">
+                                Unknown
+                            </strong>
                         </div>
 
                         <div class="detail-row">
                             <span>🏟️ Surface</span>
-                            <strong id="court-surface">Unknown</strong>
+                            <strong id="court-surface">
+                                Unknown
+                            </strong>
                         </div>
+
                     </div>
 
                     <h3>Community Reviews</h3>
 
-                    <div class="reviews-placeholder">
-                        <div class="empty-stars">☆☆☆☆☆</div>
-                        <strong>No reviews yet</strong>
-                        <p>
-                            This court hasn't received any
-                            CourtIQ reviews.
+                    <div
+                        id="reviews-list"
+                        class="reviews-list"
+                    >
+                        <p class="loading-message">
+                            Loading reviews...
                         </p>
-                        <small>
-                            Ratings and written reviews
-                            are coming in a future update.
-                        </small>
                     </div>
+
+                    <h3>Write a Review</h3>
+
+                    <form id="review-form">
+
+                        <label for="reviewer-name">
+                            Your Name
+                        </label>
+
+                        <input
+                            type="text"
+                            id="reviewer-name"
+                            placeholder="Enter your name"
+                            maxlength="50"
+                            required
+                        >
+
+                        <label for="review-rating">
+                            Your Rating
+                        </label>
+
+                        <select
+                            id="review-rating"
+                            required
+                        >
+                            <option value="">
+                                Select a rating
+                            </option>
+
+                            <option value="5">
+                                ★★★★★ — 5 Stars
+                            </option>
+
+                            <option value="4">
+                                ★★★★☆ — 4 Stars
+                            </option>
+
+                            <option value="3">
+                                ★★★☆☆ — 3 Stars
+                            </option>
+
+                            <option value="2">
+                                ★★☆☆☆ — 2 Stars
+                            </option>
+
+                            <option value="1">
+                                ★☆☆☆☆ — 1 Star
+                            </option>
+                        </select>
+
+                        <label for="review-comment">
+                            Your Review
+                        </label>
+
+                        <textarea
+                            id="review-comment"
+                            rows="4"
+                            maxlength="1000"
+                            placeholder="How is the court? Are the hoops good? Is it crowded?"
+                            required
+                        ></textarea>
+
+                        <button
+                            id="submit-review"
+                            type="submit"
+                            class="submit-review-button"
+                        >
+                            Submit Review
+                        </button>
+
+                        <p
+                            id="review-message"
+                            class="review-message"
+                            role="status"
+                            aria-live="polite"
+                        ></p>
+
+                    </form>
 
                     <a
                         id="directions-link"
@@ -126,8 +243,10 @@
                     >
                         Get Directions ↗
                     </a>
+
                 </div>
             </aside>
+
         </div>
     </main>
 

@@ -1,3 +1,26 @@
+
+# Python virtual environment
 .venv/
+venv/
+
+# Python cache
 __pycache__/
+*.pyc
+.pytest_cache/
+
+# Local environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# CourtIQ local database
+data/*.db
+data/*.db-journal
+data/*.db-wal
+data/*.db-shm
+
+# macOS
 .DS_Store
+
+# Editor settings
+.vscode/
